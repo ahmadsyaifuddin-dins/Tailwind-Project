@@ -338,7 +338,14 @@
 
     <footer class="bg-white text-center pt-10 pb-10 font-mono -mt-20">
         <!-- footer -->
-        2023 Ahmad Syaifuddin. All rights reserved
+        <span id="year"></span> Ahmad Syaifuddin. All rights reserved
     </footer>
+
+    <!-- Get year Dynamic Footer -->
+
+    <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
+
 
 </html>
