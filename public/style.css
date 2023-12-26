@@ -797,6 +797,11 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-yellow-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(234 179 8 / var(--tw-bg-opacity));
+}
+
 .fill-sky-400\/20 {
   fill: rgb(56 189 248 / 0.2);
 }
